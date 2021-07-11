@@ -1,0 +1,698 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: hsl(218, 28%, 13%);
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+    background: hsl(217, 28%, 15%);
+}
+
+nav .logo{
+    width: 145px;
+    height: 40px;
+    margin-left: 35px;
+    cursor: pointer;
+}
+
+nav .logo img{
+    width: 100%;
+    height: 100%;
+}
+
+nav .menu ul{
+    line-height: 40px;
+    list-style-type: none;
+    display: flex;
+    margin-right: 40px;
+}
+
+nav .menu ul li{
+    margin-left: 35px;
+}
+
+nav .menu ul li a{
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    font-size: 17px;
+    font-family: 'Raleway', sans-serif;
+}
+
+nav .menu ul li a:hover{
+    color: rgb(91,215,216);
+}
+
+.illustration-intro{
+    padding-top: 15px;
+    text-align: center;
+    background: hsl(217, 28%, 15%);
+}
+
+.illustration-intro .intro-image{
+    width: 650px;
+    height: 480px; 
+    margin: 0 auto;
+}
+
+.illustration-intro .intro-image img{
+    width: 100%;
+    height: 100%;
+}
+
+.files-cntnr{
+    background: hsl(217, 28%, 15%);
+    padding-top: 45px;
+    position: relative;
+}
+
+.files-cntnr .desk{
+    width: 100%;
+    height: 440px;
+}
+
+.files-cntnr .mob{
+    width: 100%;
+    height: 440px;
+    display: none;
+}
+
+.files-cntnr .files{
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    text-align: center;
+    margin-top: 40px;
+}
+.files .hdr{
+    font-size: 35px;
+    color: hsl(0, 0%, 100%);
+    padding: 0 10px 40px 10px; 
+    font-family: 'Raleway', sans-serif;
+}
+
+.files .stores{
+    color: hsl(0, 0%, 100%);
+    line-height: 27px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.files button{
+    margin-top: 40px;
+    border: none;
+    outline: none;
+    padding: 7px 60px;
+    border-radius: 20px;
+    cursor: pointer;
+    background-image: linear-gradient(to right,hsl(176, 68%, 64%),hsl(198, 60%, 50%));
+    color: hsl(0, 0%, 100%);
+    font-family: 'Raleway', sans-serif;
+}
+
+.files button:hover{
+    background-image: linear-gradient(to right,hsl(198, 60%, 50%),hsl(176, 68%, 64%));
+}
+
+.icons{
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.icons .set{
+    display: flex;
+}
+
+.set{
+    margin: 50px 0 85px 0;
+}
+
+.set .content{
+    flex-basis: 50%;
+    display: flex;
+}
+
+.set .content-r1,.content-r2{
+    justify-content: flex-end;
+    margin-right: 40px;
+}
+
+.set .content-l1,.content-l2{
+    justify-content: flex-start;
+    margin-left: 40px;
+}
+
+.set .content .icn{
+    text-align: center;
+}
+
+.set .content .icn .hd{
+    margin: 15px 0;
+    color: hsl(0, 0%, 100%);
+    font-size: 24px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.content .icn .cnt{
+    color: hsl(0, 0%, 100%);
+    font-family: 'Raleway', sans-serif;
+    font-weight: none;
+    font-size: 15px;
+}
+
+.productive{
+    display: flex;
+    justify-content: center;
+    padding: 0 35px;
+}
+
+.prd-image{
+    display: flex;
+    justify-content: flex-end;
+    height: 450px;
+}
+
+.prd-image img{
+    height: 100%;
+}
+
+.stay{
+    flex-basis: 45%;
+}
+
+.prd-image,.stay{
+    margin: 0 8px;
+}
+
+.stay .header{
+    margin: 75px 0 30px 0;
+}
+
+.stay .header p{
+    font-size: 60px;
+    color: hsl(0, 0%, 100%);
+    line-height: 55px;
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif;
+}
+
+.stay .cnts{
+    color: hsl(0, 0%, 100%);
+}
+
+.stay .cnts .cn{
+    margin-bottom: 23px;
+}
+
+.stay .cnts .cn p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+}
+
+.stay .cnts .cnt-3 p{
+    display: inline-block;
+    color: hsl(176, 68%, 64%);
+    border-bottom: 2px solid hsl(176, 68%, 64%);
+    padding-bottom: 5px;
+}
+
+.quotes{
+    padding: 65px 20px 0 20px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15.1px;
+}
+
+.quotes .cntr-1{
+    position: relative;
+}
+
+.quotes .cntr-1 .quo{
+    position: absolute;
+    top: -32px;
+    left: -10px;
+    z-index: -1;
+}
+
+.quotes .q-cntr{
+    background: hsl(219, 30%, 18%);
+    padding: 25px 20px 24px 20px;
+    margin: 30px;
+    flex-basis: 23%;
+}
+
+.quotes .q-cntr .quote{
+    margin: 4px 0 28px 0;
+}
+
+.quotes .q-cntr .quote p{
+    color: hsl(0, 0%, 100%);
+    line-height: 22px;
+}
+
+.quotes .q-cntr .fndr{
+    display: flex;
+}
+
+.quotes .q-cntr .fndr .profile{
+    width: 35px;
+    height: 35px;
+    margin-right: 8px;
+    margin-top: 3px;
+}
+
+.quotes .q-cntr .fndr .profile img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.quotes .q-cntr .fndr .pro-cnt p{
+    color: hsl(0, 0%, 100%);
+    line-height: 21px;
+}
+
+.early{
+    display: flex;
+    justify-content: center;
+    margin: 0 30px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.early .er-cnt{
+    box-sizing: border-box;
+    padding: 20px 100px 28px 100px;
+    background: hsl(219, 30%, 18%);
+    text-align: center;
+    position: relative;
+    top: 90px;
+}
+
+.early .er-cnt .acs{
+    margin: 5px 0 14px 0;
+    color: hsl(0, 0%, 100%);
+}
+
+.early .er-cnt .hlp{
+    color: hsl(0, 0%, 100%);
+    font-size: 15px;
+}
+
+.early .er-cnt .btns{
+    display: flex;
+    justify-content: center;
+    margin: 19px 0;
+}
+
+.er-cnt .btns .btn-1{
+    padding: 8px 9px;
+    width: 68%;
+    margin-right: 15px;
+    background: hsl(0, 0%, 100%);
+}
+
+.er-cnt .btns .btn-2{
+    padding: 8px 0;
+    width: 25%;
+    cursor: pointer;
+    margin-left: 15px;
+    background-image: linear-gradient(to right,hsl(176, 68%, 64%),hsl(198, 60%, 50%));
+    color: hsl(0, 0%, 100%);
+}
+
+.er-cnt .btns .btn-2:hover{
+    background-image: linear-gradient(to right,hsl(198, 60%, 50%),hsl(176, 68%, 64%));
+}
+
+.er-cnt .btns .btn{
+    border: none;
+    outline: none;
+    border-radius: 30px;
+}
+
+footer{
+    background: hsl(216, 53%, 9%);
+    color: hsl(0, 0%, 100%);
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+}
+
+footer .ftr-cntr{
+    padding: 100px 45px;
+}
+
+footer .ftr-cntr .fr-cntr{
+    flex-basis: 20%;
+}
+
+.ftr-cntr .fylo{
+    margin: 30px 0;
+    width: 145px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.ftr-cntr .fylo img{
+    width: 100%;
+    height: 100%;
+}
+
+.ftr-cntr .fr{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer .ftr-cntr .fr-cntr-1,.fr-cntr-2 .ph,.fr-cntr-2 .mail{
+    display: flex;
+    justify-content: center;
+}
+
+.fr-cntr-1 p{
+    line-height: 20px;
+}
+
+.fr-cntr-2 .ph{
+    margin-bottom: 15px;
+}
+
+.ftr-cntr .fr-cntr-2,.fr-cntr-3,.fr-cntr-4,.fr-cntr-5{
+    text-align: center;
+}
+
+.fr-cntr-3 .us,.fr-cntr-4 .us{
+    margin-bottom: 6px;
+}
+
+.fa-map-marker-alt,.fa-phone-alt,.fa-envelope{
+    margin-right: 10px;
+}
+
+footer .ftr-cntr .fr-cntr .p{
+    line-height: 35px;
+}
+
+.fr-cntr-5 i{
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    border-radius: 20px;
+    padding: 5px;
+    border: 1px solid hsl(0, 0%, 100%);
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.fr-cntr-5 i:hover{
+    color: hsl(176, 68%, 64%);
+    border: 1px solid hsl(198, 60%, 50%);
+}
+
+@media(max-width: 912px){
+    .icons .set{
+        flex-wrap: wrap;
+    }
+
+    .set .content{
+        flex-basis: 100%;
+    }
+
+    .set .content-r1,.content-r2{
+        justify-content: center;
+        margin-bottom: 80px;
+        margin-right: 0;
+    }
+
+    .set .content-l1,.content-l2{
+        justify-content: center;
+        margin-left: 0;
+    }
+}
+
+@media(max-width: 1124px){
+    .productive{
+        flex-wrap: wrap;
+    }
+
+    .prd-image,.stay{
+        flex-basis: 100%;
+    }
+
+    .prd-image{
+        justify-content: center;
+    }
+
+    .stay .header p{
+        font-size: 35px;
+    }
+}
+
+@media(max-width: 800px){
+    .illustration-intro .intro-image{
+        width: 450px;
+        height: 300px;
+    }
+    
+    .files-cntnr .desk{
+        height: 390px;
+    }
+}
+
+@media(max-width: 850px){
+    .early .er-cnt{
+        padding: 20px 100px 10px 100px;
+    }
+
+    .early .er-cnt .btns{
+        flex-wrap: wrap;
+    }
+
+    .er-cnt .btns .btn-1,.er-cnt .btns .btn-2{
+        width: 100%;
+        margin: 0 0 25px 0;
+        padding: 11px;
+    }
+}
+
+@media(max-width: 1100px){
+    .ftr-cntr .fr{
+        flex-wrap: wrap;
+    }
+
+    footer .ftr-cntr .fr-cntr{
+        flex-basis: 100%;
+        margin-bottom: 50px;
+    }
+}
+
+@media(max-width: 965px){
+    .quotes{
+        flex-wrap: wrap;
+    }
+
+    .quotes .q-cntr{
+        flex-basis: 100%;
+    }
+}
+
+@media(max-width: 650px){
+    nav .logo{
+        margin-left: 20px;
+    }
+
+    nav .menu ul{
+        margin-right: 15px;
+    }
+
+    nav .menu ul li{
+        margin-left: 16px;
+    }
+
+    .files .stores p{
+        font-size: 15px;
+    }
+
+    .files .hdr{
+        font-size: 25px;
+    }
+
+    .early .er-cnt{
+        padding: 20px 20px 10px 20px;
+    }
+
+    .productive{
+        padding: 20px;
+    }
+
+    .prd-image{
+        height: 350px;
+    }
+
+    .stay{
+        flex-basis: 100%;
+    }
+
+    .stay .header{
+        margin: 0px 0 15px 0;
+    }
+
+    .files-cntnr .desk{
+        display: none;
+    }
+
+    .files-cntnr .mob{
+        display: inline-block;
+        height: 250px;
+    }
+
+    .stay .header p {
+        font-size: 30px;
+    }
+}
+
+@media(max-width: 600px){
+    .stay .header p{
+        font-size: 30px;
+    }
+}
+
+@media(max-width: 510px){
+    .illustration-intro .intro-image {
+        width: 350px;
+        height: 250px;
+    }
+
+    .stay {
+        margin: 0;
+    }
+}
+
+@media(max-width: 555px){
+    .prd-image img{
+        width: 400px;
+        height: 300px;
+    }
+}
+
+@media(max-width: 535px){
+    .stay .header p {
+        font-size: 25px;
+    }
+}
+
+@media(max-width: 460px){
+    .productive{
+        padding: 15px;
+    }
+
+    .prd-image img {
+        width: 360px;
+        height: 270px;
+    }
+
+    .files .hdr {
+        font-size: 20px;
+    }
+
+    .files .stores p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    nav .menu ul li a {
+        font-size: 14px;
+    }
+}
+
+@media(max-width: 440px){
+    nav .logo {
+        width: 100px;
+        height: 30px;
+    }
+
+    .files .hdr {
+        font-size: 20px;
+    }
+
+    .files .stores {
+        font-size: 16px;
+    }
+
+    .files-cntnr{
+        padding-top: 0px;
+    }
+
+    nav .menu ul{
+        line-height: 25px;
+    }
+    
+    .icons{
+        padding: 20px;
+    }
+
+    .files-cntnr{
+        top: -90px;
+        z-index: -1;
+    }
+
+    .files-cntnr .files {
+        top: 120px;
+    }
+
+    .files-cntnr .mob{
+        height: 300px;
+    }
+
+    .ftr-cntr .fylo{
+        width: 100px;
+        height: 30px;
+    }
+
+    .files button {
+        margin-top: 15px;
+        padding: 7 90px;
+    }
+
+    .set .content .icn .hd{
+        font-size: 22px;
+    }
+
+    .content .icn .cnt {
+        font-size: 13px;
+    }
+
+    .stay .header p {
+        font-size: 18px;
+        font-weight: bolder;
+    }
+
+    .stay .cnts .cn p{
+        font-size: 13px; 
+    }
+
+    .quotes .q-cntr .quote p {
+        font-size: 13px; 
+    }
+
+    .quotes .q-cntr .fndr .pro-cnt p {
+        font-size: 13px;
+    }
+
+    .early .er-cnt .acs {
+        font-size: 18px;
+    }
+
+    .early .er-cnt .hlp {
+        font-size: 13px;
+    }
+
+    footer {
+        font-size: 13px;
+    }
+}
